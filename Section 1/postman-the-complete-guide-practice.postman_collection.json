@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "df7e5148-2578-4b3e-a4ed-af3a223f2b4b",
+		"name": "postman-the-complete-guide-practice",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14494895"
+	},
+	"item": [
+		{
+			"name": "Section 1",
+			"item": [
+				{
+					"name": "First Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://simple-grocery-store-api.glitch.me",
+							"protocol": "https",
+							"host": [
+								"simple-grocery-store-api",
+								"glitch",
+								"me"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://simple-grocery-store-api.glitch.me/status",
+							"protocol": "https",
+							"host": [
+								"simple-grocery-store-api",
+								"glitch",
+								"me"
+							],
+							"path": [
+								"status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Error 1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://simple-grocery-store.api.glitch.me/status",
+							"protocol": "https",
+							"host": [
+								"simple-grocery-store",
+								"api",
+								"glitch",
+								"me"
+							],
+							"path": [
+								"status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Error 2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://simple-grocery-store.api.glitch.me / status",
+							"protocol": "https",
+							"host": [
+								"simple-grocery-store",
+								"api",
+								"glitch",
+								"me "
+							],
+							"path": [
+								" status"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
